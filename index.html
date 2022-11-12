@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация и авторизация</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form action="/php/formreg.php" class="mt-3 mb-5 needs-validation" method="POST" novalidate id="form">
+                    <h2>Регистрация</h2>
+                    <div class="form-group">
+                        <label for="login" class="form-label">Login</label>
+                        <input name="login" type="text" class="form-control" id="login" required disabled>
+                        <div class="invalid-feedback">
+                            Пожалуйста заполните поле Login.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label">Пароль</label>
+                        <input name="password" type="password" class="form-control" id="password" required disabled>
+                        <div class="invalid-feedback">
+                            Пожалуйста заполните поле Password.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm_password" class="form-label">Подтвердите пароль</label>
+                        <input name="confirm_password" type="password" class="form-control" id="confirm_password" required disabled>
+                        <div class="invalid-feedback">
+                            Пожалуйста заполните поле Подтвердите пароль.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input name="email" type="email" class="form-control" id="email" required disabled>
+                        <div class="invalid-feedback">
+                            Пожалуйста заполните поле Email.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="name" class="form-label">Имя</label>
+                        <input name="name" type="name" class="form-control" id="name" required disabled>
+                        <div class="invalid-feedback">
+                            Пожалуйста заполните поле Имя.
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3" disabled>Регистрация</button>
+                    <div class="loader">
+                        <img src="/img/ripple.gif" alt="loader">
+                    </div>
+                </form>
+                <div class="mt-3" id="answer"></div>
+
+                <form action="/php/formauto.php" class="mt-3 mb-5 needs-validation_1" method="POST" novalidate id="form_1">
+                    <h2>Авторизация</h2>
+                    <div class="form-group">
+                        <label for="login_1" class="form-label">Login</label>
+                        <input name="login" type="text" class="form-control" id="login_1" required disabled>
+                        <div class="invalid-feedback">
+                            Пожалуйста заполните поле Login.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password_1" class="form-label">Пароль</label>
+                        <input name="password" type="password" class="form-control" id="password_1" required disabled>
+                        <div class="invalid-feedback">
+                            Пожалуйста заполните поле Password.
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3" disabled>Войти</button>
+                </form>
+                <div class="mt-3" id="answer_1"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="/js/formreg.js"></script>
+    <script src="/js/formauto.js"></script>
+</body>
+
+</html>

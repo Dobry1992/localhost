@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+    <user>
+        <login>Pawel_1992</login>
+        <password>499b0f3ac9e5e105fd5d545b122671ce82a81f24</password>
+        <email>p@mail.ru</email>
+        <name>Pawel Dobrynowicz</name>
+    </user>
+    <user>
+        <login>Pawel_1995</login>
+        <password>a158f0a6df9eccbc8dc6d6f33ff994b3e0712724</password>
+        <email>r@mail.ru</email>
+        <name>Pawel Dotrynowicz</name>
+    </user>
+    <user>
+        <login>Pawel_1994</login>
+        <password>6eeafaef013319822a1f30407a5353f778b59790</password>
+        <email>paul@mail.ru</email>
+        <name>Pawel Dofrynowicz</name>
+    </user>
+    <user>
+        <login>Pawel_1998</login>
+        <password>f4e87ec1f67f3f7ba8998dd231cdc595d93a07bc</password>
+        <email>pau1@mail.ru</email>
+        <name>Pawel Dobrynowicz</name>
+    </user>
+</users>
