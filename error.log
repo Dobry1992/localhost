@@ -1,0 +1,65 @@
+[Sun Dec 04 22:15:11.890354 2022] [core:warn] [pid 13524:tid 468] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Dec 04 22:15:11.984102 2022] [mpm_winnt:notice] [pid 13524:tid 468] AH00455: Apache/2.4.54 (Win64) PHP/8.1.13 configured -- resuming normal operations
+[Sun Dec 04 22:15:11.984102 2022] [mpm_winnt:notice] [pid 13524:tid 468] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Sun Dec 04 22:15:11.984102 2022] [core:notice] [pid 13524:tid 468] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Dec 04 22:15:11.984102 2022] [mpm_winnt:notice] [pid 13524:tid 468] AH00418: Parent: Created child process 13064
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 13064:tid 480] AH00354: Child: Starting 64 worker threads.
+[Sun Dec 04 22:20:47.788787 2022] [authz_core:error] [pid 13064:tid 1140] [client ::1:50719] AH01630: client denied by server configuration: C:/localhost/form_manao_test/data/.htaccess
+[Sun Dec 04 22:21:06.546586 2022] [authz_core:error] [pid 13064:tid 1144] [client ::1:50718] AH01630: client denied by server configuration: C:/localhost/form_manao_test/data/.htaccess
+[Sun Dec 04 22:21:37.977161 2022] [mpm_winnt:notice] [pid 13524:tid 468] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Dec 04 22:22:01.828802 2022] [mpm_winnt:notice] [pid 13064:tid 480] AH00364: Child: All worker threads have exited.
+[Sun Dec 04 22:22:46.612693 2022] [core:warn] [pid 3504:tid 472] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Dec 04 22:22:46.690813 2022] [mpm_winnt:notice] [pid 3504:tid 472] AH00455: Apache/2.4.54 (Win64) PHP/8.1.13 configured -- resuming normal operations
+[Sun Dec 04 22:22:46.690813 2022] [mpm_winnt:notice] [pid 3504:tid 472] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Sun Dec 04 22:22:46.706438 2022] [core:notice] [pid 3504:tid 472] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Dec 04 22:22:46.706438 2022] [mpm_winnt:notice] [pid 3504:tid 472] AH00418: Parent: Created child process 10024
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 10024:tid 472] AH00354: Child: Starting 64 worker threads.
+[Sun Dec 04 22:24:08.344362 2022] [mpm_winnt:notice] [pid 3504:tid 472] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Dec 04 22:24:17.012756 2022] [mpm_winnt:notice] [pid 10024:tid 472] AH00364: Child: All worker threads have exited.
+[Sun Dec 04 22:26:52.120834 2022] [core:warn] [pid 19252:tid 468] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Dec 04 22:26:52.251824 2022] [mpm_winnt:notice] [pid 19252:tid 468] AH00455: Apache/2.4.54 (Win64) PHP/8.1.13 configured -- resuming normal operations
+[Sun Dec 04 22:26:52.251824 2022] [mpm_winnt:notice] [pid 19252:tid 468] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Sun Dec 04 22:26:52.251824 2022] [core:notice] [pid 19252:tid 468] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Dec 04 22:26:52.258822 2022] [mpm_winnt:notice] [pid 19252:tid 468] AH00418: Parent: Created child process 6056
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 6056:tid 472] AH00354: Child: Starting 64 worker threads.
+[Sun Dec 04 22:27:12.479270 2022] [authz_core:error] [pid 6056:tid 1148] [client ::1:50881] AH01630: client denied by server configuration: C:/localhost/form_manao_test/data/.htaccess
+[Sun Dec 04 22:27:25.713212 2022] [authz_core:error] [pid 6056:tid 1148] [client ::1:50882] AH01630: client denied by server configuration: C:/localhost/form_manao_test/data/.htaccess
+[Sun Dec 04 22:28:20.398992 2022] [mpm_winnt:notice] [pid 19252:tid 468] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Dec 04 22:28:27.692220 2022] [mpm_winnt:notice] [pid 6056:tid 472] AH00364: Child: All worker threads have exited.
+[Sun Dec 04 22:28:45.693876 2022] [core:warn] [pid 9732:tid 148] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Dec 04 22:28:45.865741 2022] [mpm_winnt:notice] [pid 9732:tid 148] AH00455: Apache/2.4.54 (Win64) PHP/8.1.13 configured -- resuming normal operations
+[Sun Dec 04 22:28:45.865741 2022] [mpm_winnt:notice] [pid 9732:tid 148] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Sun Dec 04 22:28:45.865741 2022] [core:notice] [pid 9732:tid 148] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Dec 04 22:28:45.865741 2022] [mpm_winnt:notice] [pid 9732:tid 148] AH00418: Parent: Created child process 8716
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 8716:tid 472] AH00354: Child: Starting 64 worker threads.
+[Sun Dec 04 22:28:48.400396 2022] [authz_core:error] [pid 8716:tid 1148] [client ::1:50934] AH01630: client denied by server configuration: C:/localhost/form_manao_test/data/.htaccess
+[Sun Dec 04 22:29:05.803245 2022] [authz_core:error] [pid 8716:tid 1140] [client ::1:50939] AH01630: client denied by server configuration: C:/localhost/form_manao_test/data/.htaccess
+[Sun Dec 04 22:29:12.893172 2022] [authz_core:error] [pid 8716:tid 1144] [client ::1:50938] AH01630: client denied by server configuration: C:/localhost/form_manao_test/data/.htaccess
+[Sun Dec 04 22:32:00.029133 2022] [mpm_winnt:notice] [pid 9732:tid 148] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Dec 04 22:32:35.084924 2022] [mpm_winnt:notice] [pid 8716:tid 472] AH00362: Child: Waiting 30 more seconds for 1 worker threads to finish.
+[Sun Dec 04 22:32:38.943070 2022] [mpm_winnt:notice] [pid 8716:tid 472] AH00364: Child: All worker threads have exited.
+[Sun Dec 04 22:33:46.447114 2022] [core:warn] [pid 23792:tid 472] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Dec 04 22:33:46.570108 2022] [mpm_winnt:notice] [pid 23792:tid 472] AH00455: Apache/2.4.54 (Win64) PHP/8.1.13 configured -- resuming normal operations
+[Sun Dec 04 22:33:46.570108 2022] [mpm_winnt:notice] [pid 23792:tid 472] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Sun Dec 04 22:33:46.570108 2022] [core:notice] [pid 23792:tid 472] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Dec 04 22:33:46.578108 2022] [mpm_winnt:notice] [pid 23792:tid 472] AH00418: Parent: Created child process 9300
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 9300:tid 472] AH00354: Child: Starting 64 worker threads.
+[Sun Dec 04 22:38:30.459292 2022] [authz_core:error] [pid 9300:tid 1208] [client ::1:51042] AH01630: client denied by server configuration: C:/localhost/form_manao_test/data/.htaccess
+[Sun Dec 04 22:40:05.115062 2022] [mpm_winnt:notice] [pid 23792:tid 472] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Dec 04 22:40:09.423622 2022] [mpm_winnt:notice] [pid 9300:tid 472] AH00364: Child: All worker threads have exited.
+[Sun Dec 04 22:40:09.456618 2022] [mpm_winnt:notice] [pid 23792:tid 472] AH00430: Parent: Child process 9300 exited successfully.
+[Sun Dec 04 22:40:37.102932 2022] [mpm_winnt:notice] [pid 26684:tid 468] AH00455: Apache/2.4.54 (Win64) PHP/8.1.13 configured -- resuming normal operations
+[Sun Dec 04 22:40:37.102932 2022] [mpm_winnt:notice] [pid 26684:tid 468] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Sun Dec 04 22:40:37.102932 2022] [core:notice] [pid 26684:tid 468] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Dec 04 22:40:37.102932 2022] [mpm_winnt:notice] [pid 26684:tid 468] AH00418: Parent: Created child process 26500
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 26500:tid 472] AH00354: Child: Starting 64 worker threads.
+[Sun Dec 04 22:41:53.434440 2022] [authz_core:error] [pid 26500:tid 1148] [client ::1:51185] AH01630: client denied by server configuration: C:/localhost/form_manao_test/data/.htaccess
+[Sun Dec 04 22:43:01.604340 2022] [authz_core:error] [pid 26500:tid 1148] [client ::1:51222] AH01630: client denied by server configuration: C:/localhost/form_manao_test/data/.htaccess
+[Sun Dec 04 22:45:49.137173 2022] [mpm_winnt:notice] [pid 26684:tid 468] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Dec 04 22:45:56.411735 2022] [mpm_winnt:notice] [pid 26500:tid 472] AH00364: Child: All worker threads have exited.
